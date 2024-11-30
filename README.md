@@ -48,7 +48,12 @@ HandsFree bridges the gap between humans and technology by offering a natural wa
    pip install requirements.txt
 
 3. **Run the project**
-
+   ```bash
+   python.exe collect_imgs.py
+   python.exe create_dataset.py
+   python.exe train_classifier.py
+   python.exe inference_classifier.py
+   
 ## How It Works
 
 1. **Input Capture**: Webcam captures real-time video frames.
